@@ -1,4 +1,4 @@
-# Find ip and Domain in Range
+# nslookup Over Range
 
 Small helper script to perform reverse DNS lookups (nslookup) across an IPv4 range and save any PTR results to `Results.txt`.
 
@@ -38,4 +38,5 @@ Editable at top of `nslookup.bash`
 # Output
 
 - Results are appended to `Results.txt` in the same directory. The file contains IP: hostname lines and separators between third-octet blocks.
+
 
