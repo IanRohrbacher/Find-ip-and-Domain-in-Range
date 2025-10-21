@@ -25,5 +25,5 @@ for ((octet3=start_octet3; octet3<=end_octet3; octet3++)); do
     done
     echo "------------------------------------" >> "${OUTPUTFILE}"
 done
-echo "nslookup completed. >> "$OUTPUTFILE"
+echo "nslookup completed." >> "$OUTPUTFILE"
 echo "nslookup completed. Results saved in $OUTPUTFILE"
